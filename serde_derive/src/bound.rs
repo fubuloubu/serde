@@ -1,6 +1,7 @@
 use std::collections::HashSet;
 
 use syn;
+use syn::token;
 use syn::punctuated::{Pair, Punctuated};
 use syn::visit::{self, Visit};
 
