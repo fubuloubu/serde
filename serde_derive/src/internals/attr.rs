@@ -5,6 +5,7 @@ use std::borrow::Cow;
 use std::collections::BTreeSet;
 use std::str::FromStr;
 use syn;
+use syn::token;
 use syn::parse::{self, Parse, ParseStream};
 use syn::punctuated::Punctuated;
 use syn::Ident;
