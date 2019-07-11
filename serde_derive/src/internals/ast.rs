@@ -4,6 +4,7 @@ use internals::attr;
 use internals::check;
 use internals::{Ctxt, Derive};
 use syn;
+use syn::token;
 use syn::punctuated::Punctuated;
 
 /// A source data structure annotated with `#[derive(Serialize)]` and/or `#[derive(Deserialize)]`,
